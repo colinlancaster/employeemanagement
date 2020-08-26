@@ -6,6 +6,20 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <environment include="Development">
             <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+            <script src="~/lib/jquery/jquery.js"></script>
+            <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+        </environment>
+        <!-- Load in any env OTHER THAN development -->
+        <environment exclude="Development">
+            <link rel="stylesheet" 
+                  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+                  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+                  crossorigin="anonymous"
+                  asp-fallback-href="~/lib/bootstrap/css/bootstrap.css"
+                  asp-fallback-test-class="sr-only"
+                  asp-fallback-test-property="position"
+                  asp-fallback-test-value="absolute"
+                  asp-suppress-fallback-integrity="true">
         </environment>
         <link href="~/css/site.css" rel="stylesheet" />
         <title>@ViewBag.Title</title>
@@ -13,12 +27,32 @@
 
     <body>
         <div class="container">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbard-brand" asp-action="index" asp-controller="home">
+                    <img src="~/images/brand.png" alt="Brand" height="30" width="30" />
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a asp-action="index" asp-controller="home" class="nav-link">List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-action="create" asp-controller="home" class="nav-link">Create</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
 
-            @if (true)
-            {
-                @RenderBody()
-            }
+                @if (true)
+                {
+                    @RenderBody()
+                }
 
+            </div>
         </div>
         <!-- Render only if "Scripts" is defined on the section in the cshtml file you are rendering.-->
         @if (IsSectionDefined("Scripts"))

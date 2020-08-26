@@ -13,9 +13,9 @@ namespace EmployeeManagement.Models
         {
             _employeeList = new List<Employee>()
             {
-                new Employee() { Id = 1, Name = "Mary", Department = "HR", Email = "Mary@Thing.com" },
-                new Employee() { Id = 2, Name = "John", Department = "Sales", Email = "John@Thing.com" },
-                new Employee() { Id = 3, Name = "Sam", Department = "IT", Email = "Sam@Thing.com" }
+                new Employee() { Id = 1, Name = "Mary", Department = Dept.HR, Email = "Mary@Thing.com" },
+                new Employee() { Id = 2, Name = "John", Department = Dept.IT, Email = "John@Thing.com" },
+                new Employee() { Id = 3, Name = "Sam", Department = Dept.Payroll, Email = "Sam@Thing.com" }
             };
         }
 
@@ -29,6 +29,11 @@ namespace EmployeeManagement.Models
             return _employeeList.FirstOrDefault(e => e.Id == Id);
         }
 
-        
+        public Employee Add(Employee employee)
+        {
+            employee.Id = _employeeList.Max(e => e.Id) + 1; 
+            _employeeList.Add(employee);
+            return employee;
+        }
     }
 }

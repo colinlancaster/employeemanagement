@@ -40,11 +40,24 @@ namespace EmployeeManagement.Controllers
                 // Null Coalescing Operator.
                 // If the incoming param is not null, use id.
                 // If the incoming param is null, use 1.
-                Employee = _employeeRepository.GetEmployee(id??1),
+                Employee = _employeeRepository.GetEmployee(id ?? 1),
                 PageTitle = "Employee Details",
             };
 
             return View(homeDetailsViewModel);
+        }
+
+        [HttpGet]
+        public ViewResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public RedirectToActionResult Create(Employee employee)
+        {
+            Employee newEmployee = _employeeRepository.Add(employee);
+            return RedirectToAction("details", new { id = newEmployee.Id });
         }
     }
 }
