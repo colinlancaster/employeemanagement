@@ -8,24 +8,25 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lanca\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\colinl\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_src\\training\\csharp\\venkat\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectUniqueName": "C:\\_src\\employeemanagement\\EmployeeManagement\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "C:\\_src\\training\\csharp\\venkat\\EmployeeManagement\\EmployeeManagement.csproj",
-      "packagesPath": "C:\\Users\\lanca\\.nuget\\packages\\",
-      "outputPath": "C:\\_src\\training\\csharp\\venkat\\EmployeeManagement\\obj\\",
+      "projectPath": "C:\\_src\\employeemanagement\\EmployeeManagement\\EmployeeManagement.csproj",
+      "packagesPath": "C:\\Users\\colinl\\.nuget\\packages\\",
+      "outputPath": "C:\\_src\\employeemanagement\\EmployeeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\lanca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\colinl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
