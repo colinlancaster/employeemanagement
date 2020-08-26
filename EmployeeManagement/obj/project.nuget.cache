@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qU5v+TU917MdskRvk5C3HVixvkZu/OIAjdRGICt/yab3I3bo2rKo3y+sp8iDWENoNeExRoqlBDqpXwYsiT3VYA==",
+  "success": true,
+  "projectFilePath": "C:\\_src\\training\\csharp\\venkat\\EmployeeManagement\\EmployeeManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lanca\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\lanca\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\lanca\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\lanca\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <environment include="Development">
+            <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+        </environment>
+        <link href="~/css/site.css" rel="stylesheet" />
+        <title>@ViewBag.Title</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            @if (true)
+            {
+                @RenderBody()
+            }
+
+        </div>
+        <!-- Render only if "Scripts" is defined on the section in the cshtml file you are rendering.-->
+        @if (IsSectionDefined("Scripts"))
+        {
+            @RenderSection("Scripts", required: true)
+        }
+
+    </body>
+</html>
