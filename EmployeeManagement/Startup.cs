@@ -28,7 +28,8 @@ namespace EmployeeManagement
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer());
+            services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
+
             services.AddMvc(option => option.EnableEndpointRouting = false).AddXmlSerializerFormatters(); // Added lambda to suppress error
             //services.AddMvcCore(option => option.EnableEndpointRouting = false);
             //services.AddMvc();
