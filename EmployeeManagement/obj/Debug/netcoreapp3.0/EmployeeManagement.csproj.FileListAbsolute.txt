@@ -33,6 +33,7 @@ C:\_src\training\csharp\venkat\EmployeeManagement\obj\Debug\netcoreapp3.0\Employ
 C:\_src\training\csharp\venkat\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\_src\training\csharp\venkat\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
 C:\_src\training\csharp\venkat\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.csproj.CopyComplete
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\nlog.config
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\appsettings.json
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\libman.json
@@ -67,7 +68,10 @@ C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Console.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -76,6 +80,8 @@ C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\NLog.dll
+C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
 C:\_src\employeemanagement\EmployeeManagement\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
@@ -103,7 +109,11 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeMa
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.RazorCoreGenerate.cache
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Create.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Details.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Edit.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Shared\NotFound.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -116,4 +126,3 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\staticweba
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.dll
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.csprojAssemblyReference.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kXHU38AnrBKbY9IXuAlx35Y3lBrczZByg7psqZgyDG8h7LPl7+LusLtZOXex4TZteKflecWxnFS1B2t+AfZIxg==",
+  "dgSpecHash": "o9c0IBugshyKD5bLQlSWO6yrMttNk3J6MeooZOeJASNh+xaf6T8vJuBDfAfM+WJWP/EhEyW3d76Uxj+HtgMFKw==",
   "success": true,
   "projectFilePath": "C:\\_src\\employeemanagement\\EmployeeManagement\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,10 @@
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.7\\microsoft.extensions.identity.stores.3.1.7.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.logging\\3.1.7\\microsoft.extensions.logging.3.1.7.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.7\\microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.7\\microsoft.extensions.logging.configuration.3.1.7.nupkg.sha512",
+    "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.7\\microsoft.extensions.logging.console.3.1.7.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.options\\3.1.7\\microsoft.extensions.options.3.1.7.nupkg.sha512",
+    "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.7\\microsoft.extensions.options.configurationextensions.3.1.7.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
@@ -41,6 +44,8 @@
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\colinl\\.nuget\\packages\\nlog\\4.7.4\\nlog.4.7.4.nupkg.sha512",
+    "C:\\Users\\colinl\\.nuget\\packages\\nlog.extensions.logging\\1.6.5\\nlog.extensions.logging.1.6.5.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\colinl\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

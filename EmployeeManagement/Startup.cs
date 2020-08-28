@@ -45,6 +45,11 @@ namespace EmployeeManagement
             {
                 app.UseDeveloperExceptionPage();
             }
+            else 
+            {
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
+                app.UseExceptionHandler("/Error");
+            }
 
             app.UseStaticFiles();
 

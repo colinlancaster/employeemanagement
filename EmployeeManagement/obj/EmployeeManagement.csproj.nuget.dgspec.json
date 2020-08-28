@@ -59,6 +59,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.4, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.6.5, )"
             }
           },
           "imports": [
