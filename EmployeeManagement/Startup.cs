@@ -6,6 +6,7 @@ using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -29,12 +30,9 @@ namespace EmployeeManagement
         {
 
             services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(_config.GetConnectionString("EmployeeDBConnection")));
-
-            services.AddMvc(option => option.EnableEndpointRouting = false).AddXmlSerializerFormatters(); // Added lambda to suppress error
-            //services.AddMvcCore(option => option.EnableEndpointRouting = false);
-            //services.AddMvc();
-            //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
-            //services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>();
+            services.AddMvc(option => option.EnableEndpointRouting = false).AddXmlSerializerFormatters(); 
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
         }
 
@@ -52,8 +50,8 @@ namespace EmployeeManagement
             }
 
             app.UseStaticFiles();
-
-            //app.UseMvcWithDefaultRoute();
+            app.UseAuthentication();
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
