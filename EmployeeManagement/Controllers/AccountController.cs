@@ -21,6 +21,13 @@ namespace EmployeeManagement.Controllers
             this.signInManager = signInManager;
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await signInManager.SignOutAsync();
+            return RedirectToAction("index", "home");
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -45,6 +52,30 @@ namespace EmployeeManagement.Controllers
                 {
                     ModelState.AddModelError("", error.Description);
                 }
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("index", "home");
+                }
+                
+                ModelState.AddModelError(string.Empty, "Either your email address or password are incorrect. Please try again.");
+                
             }
             return View(model);
         }

@@ -128,3 +128,4 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeMa
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
