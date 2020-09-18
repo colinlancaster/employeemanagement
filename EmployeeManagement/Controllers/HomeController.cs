@@ -1,5 +1,6 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
@@ -14,6 +15,7 @@ using System.Threading.Tasks;
 namespace EmployeeManagement.Controllers
 {
     //[Route("[controller]/[action]")]
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
@@ -29,13 +31,14 @@ namespace EmployeeManagement.Controllers
             this.logger = logger;
         }
         
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var model = _employeeRepository.GetAllEmployees();
             return View(model);
         }
 
-        //[Route("{id?}")]
+        [AllowAnonymous]
         public ViewResult Details(int? id)
         {
             //throw new Exception("Error in details view");
