@@ -33,6 +33,10 @@ namespace EmployeeManagement
 
             services.AddMvc(options => {
                 options.EnableEndpointRouting = false;
+                // This section is super important.
+                // It disallows any user from accessing controller methods
+                // UNLESS they are authenticated OR the controller has been
+                // explicitly set up to [AllowAnonymous] users.
                 var policy = new AuthorizationPolicyBuilder()
                                     .RequireAuthenticatedUser()
                                     .Build();
