@@ -131,3 +131,5 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeMa
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.csprojAssemblyReference.cache
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
