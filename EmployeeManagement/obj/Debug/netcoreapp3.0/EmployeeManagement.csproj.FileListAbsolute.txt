@@ -109,6 +109,10 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeMa
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.RazorCoreGenerate.cache
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Create.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Details.cshtml.g.cs
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Home\Edit.cshtml.g.cs
@@ -128,8 +132,3 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\staticweba
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.dll
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.csprojAssemblyReference.cache
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditRole.cshtml.g.cs
-C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
