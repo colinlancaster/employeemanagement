@@ -132,3 +132,6 @@ C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\staticweba
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.dll
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.pdb
 C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.genruntimeconfig.cache
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\EmployeeManagement.csprojAssemblyReference.cache
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\_src\employeemanagement\EmployeeManagement\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListUsers.cshtml.g.cs
